@@ -27,8 +27,15 @@
     height: 5vh;
 }
 
+#logo:hover {
+    border-bottom: none;
+
+
+}
+
 li {
     padding: 12px;
+    cursor: pointer;
 }
 
 .headerleft li:hover {
@@ -52,6 +59,10 @@ li {
 
 }
 
+.link {
+    text-decoration: none;
+    color: #000;
+}
 .headersec h3 {
     font-size: 20px;
 }
@@ -60,6 +71,7 @@ li {
     background-color: black;
     color: #fff;
     border-radius: 5px;
+    padding: 5px 15px;
 }
 
 .hero {
@@ -570,9 +582,91 @@ li {
     width: 60%;
     font-size: 12px;
 }
+
 .btn button {
     width: 100%;
     padding: 20px 0px;
     border: none;
 
+}
+.sp1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.sp1 h3{
+    font-size: 50px;
+    padding: 70px;
+    font-weight: 200;
+}
+.sp1 img{
+    height: 40vh;
+}
+.sp0{
+    width: 50%;
+}
+
+.sp2{
+    display: flex;
+    color: #3f3f3f;
+}
+.gen{
+    font-size: 20px;
+    margin: 20px 0px;
+    margin-top: 40px;
+}
+.sp3,.sp4{
+    width: 50%;
+}
+.sp3 p,.sp4 p{
+    padding: 20px;
+}
+.dis{
+    padding: 50px;
+    color: #3f3f3f;
+}
+.rv1{
+    width: 100%;
+    display: flex;
+    align-items: top;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.rv2{
+    width: 80%;
+    background-color: #fafafa;
+
+}
+.rv2 p{
+    padding: 50px 50px;
+    font-size: 20px;
+    color: #202020;
+}
+.rv3{
+    color: #ff6600;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.rv4{
+    font-size: 12px;
+    
+}
+.rv5{
+    text-align: center;
+    
+}
+.faq1{
+    background-image: url("D:\neeraj\wallpaper\shahadat-rahman-BfrQnKBulYQ-unsplash.jpg");
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
 }

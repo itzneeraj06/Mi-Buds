@@ -24,10 +24,7 @@ import img20 from '../Asset/24b3275b-145b-4092-9157-1b01e7de1580.webp'
 import logo from '../Asset/logo.png'
 
 const Hero = () => {
-    const top=()=>{
-        document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
+    
     return (
         <div>
             <div className='hero'>
@@ -171,9 +168,7 @@ Low Latency Mode: ~60ms Low Latency mode enhances the overall user experience by
 Touch Controls: Control your music effortlessly with the touch controls of Redmi Buds 5A, tapping and double-tapping with precision. <br />
 Xiaomi Earbuds app: The Xiaomi Earbuds app offers customization to different modes, low latency mode, and more.</p>
             </div>
-            <div className='btn'>
-                <button onClick={top}>back to top</button>
-            </div>
+            
 
 
         </div>
